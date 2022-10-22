@@ -5,7 +5,7 @@
   "author": "Oleksandr Kocherhin <monsterlessonsacademy@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "compile": "tsc && tsc --build tsconfig.es5.json"
+    "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
   },
   "devDependencies": {
     "typescript": "^4.6.3"
